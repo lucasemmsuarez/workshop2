@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/reset.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|PT+Serif:400,400i,700,700i" rel="stylesheet">
+	<title>Workshop2</title>
+</head>
+
+<body>	
+	<header>
+		<div class="container">
+			<div class="row principal">
+				<div class="col-md-2 search">
+					<div class="input-group">
+					  <span class="input-group-addon" id="basic-addon1"><span class="ion-search"></span></span>
+					  <input type="text" class="form-control" placeholder="Search" aria-describedby="basic-addon1">
+					</div>
+				</div>
+				<div class="col-md-8 logo">
+					<a href="home"><img class="img-logo" src="images/logo.png" alt=""></a>
+				</div>
+				<div class="col-md-2">
+					<div class="btn-group" role="group" aria-label="...">
+					  <button type="button" class="btn btn-default"><a href="item"><span class="ion-bag">ITEM</span></a></button>
+					  <button type="button" class="btn btn-default"><a href="CAD">CAD</a></button>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="nav nav-tabs menue">
+						<li><a href="">Home</a></li> 
+						<li role="presentation" class="dropdown">
+						    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+						      Shop <span class="caret"></span>
+						    </a>
+						    <ul class="dropdown-menu">
+						    	<li>1</li>
+						    	<li>2</li>
+						    	<li>3</li>
+						    </ul>
+							</li>
+						<li><a href="">Blog</a></li>
+						<li><a href="">Theme Features</a></li>
+						<li><a href="">Account</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+<section>
+	<div class="container">
+		<div class="row">
+			<article class="col-md-2 lateral">
+				<h4 class="lateralshop">SHOP</h4>
+				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+				  <div class="panel">
+				    <div class="panel-heading" role="tab" id="headingOne">
+				      <h4 class="panel-title titulopanel">
+				        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				          Men >
+				        </a>
+				      </h4>
+				    </div>
+				    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+				      <div class="panel-body">
+				         <ul>
+				         	<li><a href="">Classics</a></li>
+				         	<li><a href="">New Arrivals</a></li>
+				         	<li><a href="">Legacy Line</a></li>
+				         	<li><a href="">Sunwear</a></li>
+				         </ul>
+				      </div>
+				    </div>
+				  </div>
+
+				  <div class="panel">
+				    <div class="panel-heading" role="tab" id="headingTwo">
+				      <h4 class="panel-title titulopanel">
+				        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				          Women >
+				        </a>
+				      </h4>
+				    </div>
+				    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+				      <div class="panel-body">
+				        <ul>
+				         	<li><a href="">Classics</a></li>
+				         	<li><a href="">New Arrivals</a></li>
+				         	<li><a href="">Legacy Line</a></li>
+				         	<li><a href="">Sunwear</a></li>
+				         </ul>
+				      </div>
+				    </div>
+				  </div>
+
+				  <div class="panel">
+				    <div class="panel-heading" role="tab" id="headingThree">
+				      <h4 class="panel-title look">
+				        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				          Lookbook
+				        </a>
+				      </h4>
+				    </div>
+				    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+				      <div class="panel-body">
+				        <a href="">FW 2014</a> 
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</article>
+	<!--carrousell-->
+			<article class="col-md-10">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				  </ol>
+
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner" role="listbox">
+				    <div class="item active">
+				      <img src="images/0.jpg" alt="...">
+				      <div class="carousel-caption">
+				        <p>bold & beautiful</p>
+				        <h3>Autumn Styles</h3>
+				        <p>by faraday eyewear</p>
+				      </div>
+				    </div>
+				    <div class="item">
+				      <img src="images/0.jpg" alt="...">
+				      <div class="carousel-caption">
+				        <p>bold & beautiful</p>
+				        <h3>Autumn Styles</h3>
+				        <p>by faraday eyewear</p>
+				      </div>
+				    </div>
+				    <div class="item">
+				      <img src="images/0.jpg" alt="...">
+				      <div class="carousel-caption">
+				        <p>bold & beautiful</p>
+				        <h3>Autumn Styles</h3>
+				        <p>by faraday eyewear</p>
+				      </div>
+				    </div>
+				  </div>
+
+				  <!-- Controls -->
+				  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</article>
+		</div>
+		<div class="row clapo">
+			<article class="col-md-5 col-md-offset-2 pocla">
+				<img src="images/home-feature-4.png" alt="" class="img-responsive">
+				<div>
+					<h4>Classics</h4>
+					<a href="·">Shop Now</a>
+				</div>
+			</article>
+			<article class="col-md-5 pocla">
+				<img src="images/home-feature-5.png" alt="" class="img-responsive">
+				<div>
+					<h4>Popular</h4>
+					<a href="·">Shop Now</a>
+				</div>
+			</article>
+		</div>
+	</div>
+</section>
+
+<section class="anteojos">
+	<div class="container">
+		<div class="row">
+			<h3 class="col-md-10 col-md-offset-2 featu">featured products</h3>
+		</div>
+		<div class="row welcome">
+			<div class="col-md-10 col-md-offset-2">
+				<article class="col-md-3">
+					<img src="images/2.jpg" alt="" class="img-responsive">
+					<a href="#">warby parker</a>
+					<h6>Clara</h6>
+					<span>$235.00 CAD</span>
+				</article>
+				<article class="col-md-3">
+					<img src="images/3.jpg" alt="" class="img-responsive">
+					<a href="#">warby parker</a>
+					<h6>Clara</h6>
+					<span>$235.00 CAD</span>
+				</article>
+				<article class="col-md-3">
+					<img src="images/4.jpg" alt="" class="img-responsive">
+					<a href="#">warby parker</a>
+					<h6>Clara</h6>
+					<span>$235.00 CAD</span>
+				</article>
+				<article class="col-md-3">
+					<img src="images/5.jpg" alt="" class="img-responsive">
+					<a href="#">warby parker</a>
+					<h6>Clara</h6>
+					<span>$235.00 CAD</span>
+				</article>
+			</div>
+		</div>
+		<div class="row welcometo">
+			<article class="col-md-5 col-md-offset-2 lente">
+				<h3>Welcome To Faraday Eyewear</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis vel eius officia. Mollitia debitis incidunt deleniti eum laboriosam pariatur similique. Eos rem tempora quidem, tempore ut pariatur vitae aperiam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis vel eius officia. Mollitia debitis incidunt deleniti eum laboriosam pariatur similique. Eos rem tempora quidem, tempore ut pariatur vitae aperiam.</p>
+			</article>
+			<div class="col-md-5 lenteimg">
+				<img src="images/1.png" alt="" class="img-responsive">
+			</div>
+		</div>
+		<div class="row">
+			<article class="col-md-10 col-md-offset-2 mujer">
+				<img src="images/6.png" alt="" class="img-responsive">
+				<div>
+					<p>all sunwear</p>
+					<span>50% Off</span>
+					<p>limited time offer</p>
+				</div>
+			</article>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<div class="row">
+			<h3 class="col-md-8 col-md-offset-4">news</h3>
+		</div>
+		<div class="row">
+			<div class="col-md-8 col-md-offset-4">
+				<article class="col-md-4">
+					<h3>Behind the Scenes</h3>
+					<img src="images/6.png" alt="" class="img-responsive">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, impedit doloremque ut maiores consectetur cumque temporibus nostrum corporis error voluptates suscipit fugiat, et recusandae, aperiam pariatur, molestias! Reiciendis, excepturi, nostrum.</p>
+					<a href="">read more</a>
+				</article>
+				<article class="col-md-4">
+					<h3>Behind the Scenes</h3>
+					<img src="images/6.png" alt="" class="img-responsive">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, impedit doloremque ut maiores consectetur cumque temporibus nostrum corporis error voluptates suscipit fugiat, et recusandae, aperiam pariatur, molestias! Reiciendis, excepturi, nostrum.</p>
+					<a href="">read more</a>
+				</article>
+				<article class="col-md-4">
+					<h3>Behind the Scenes</h3>
+					<img src="images/6.png" alt="" class="img-responsive">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, impedit doloremque ut maiores consectetur cumque temporibus nostrum corporis error voluptates suscipit fugiat, et recusandae, aperiam pariatur, molestias! Reiciendis, excepturi, nostrum.</p>
+					<a href="">read more</a>
+				</article>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<div class="row">
+			<h3 class="col-md-8 col-md-offset-4">featured collection</h3>
+		</div>
+		<div class="row">
+			<div class="col-md-8 col-md-offset-4">
+				<article class="col-md-4">
+					<h3>Behind the Scenes</h3>
+				</article>
+				<article class="col-md-4">
+					<h3>Behind the Scenes</h3>
+				</article>
+				<article class="col-md-4">
+					<h3>Behind the Scenes</h3>
+				</article>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8 col-md-offset-4">
+				<article class="col-md-4">
+					<p>dkfnksdnvgfsdfjkvn</p>
+					<h3>Behind the Scenes</h3>
+					<p>dkfnksdnvgfsdfjkvn</p>
+				</article>
+				<article class="col-md-4">
+					<p>dkfnksdnvgfsdfjkvn</p>
+					<h3>Behind the Scenes</h3>
+					<p>dkfnksdnvgfsdfjkvn</p>
+				</article>
+				<article class="col-md-4">
+					<p>dkfnksdnvgfsdfjkvn</p>
+					<h3>Behind the Scenes</h3>
+					<p>dkfnksdnvgfsdfjkvn</p>
+				</article>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<hr>
+	<div class="container">
+		<div class="row">
+			<article class="col-md-2">
+				<h6>Navigate</h6>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Products</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">About us</a></li>
+					<li><a href="">Theme Features</a></li>
+				</ul>
+			</article>
+			<article class="col-md-2">
+				<h6>Support</h6>
+				<ul>
+					<li><a href="">Customer Service</a></li>
+					<li><a href="">FAQs</a></li>
+					<li><a href="">Free Shipping</a></li>
+					<li><a href="">Returns</a></li>
+					<li><a href="">Privacy Policy</a></li>
+				</ul>				
+			</article>
+			<article class="col-md-4">
+				<h6>Twitter</h6>
+			</article>
+			<div class="col-md-4">
+				<article class="row">
+					<h6>Newsletter</h6>
+					<div class="input-group">
+  						<input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
+  						<span class="input-group-addon" id="basic-addon2"><span class="ion-ios-email-outline"></span></span>
+					</div>
+				</article>
+				<article class="row">
+					<h6>Connect with us</h6>
+				</article>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

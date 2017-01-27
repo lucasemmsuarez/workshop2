@@ -1,0 +1,222 @@
+$fuenteprincipal: 'Open Sans', sans-serif;
+$fuentealternativa: 'PT Serif', serif;
+
+header{
+	margin-bottom: 30px;
+}
+
+.container{
+	width: 90%;
+}
+
+.principal{
+	padding-top: 20px;
+	font-family: $fuenteprincipal;
+	
+	.input-group-addon{
+		border:none;
+		background: none;
+
+		.ion-search{
+			font-size: 18px;
+			vertical-align: middle;
+		}
+	}
+
+	.form-control{
+		border:none;
+		box-shadow: none;
+		text-transform: uppercase;
+		font-size: 11px;
+		letter-spacing: 2px;
+		padding-left: 0px;
+	}
+
+	.logo{
+		text-align:center;
+
+		img{
+			width:120px;
+		}
+	}
+
+}
+
+.menue{
+	text-align: center;
+	li{
+		float: none;
+		display: inline-block;
+		font-size: 10px;
+		padding-bottom: 15px;
+		a{
+			color: black;
+		}
+	}
+}
+
+.lateral{
+	font-family: $fuenteprincipal;
+	line-height: 30px;
+	.lateralshop{
+		font-size: 13px;
+		color: grey;
+		font-weight: bold;
+		margin-left: 16px;
+
+	}
+	.panel{
+		.panel-heading{
+			.look{
+				color: black;
+				font-size: 12px;
+				font-weight: 700;
+			}
+			.titulopanel{
+				color: #5D9FC2;
+				font-size: 12px;
+				font-weight: 700;
+			}
+		}
+		.panel-collapse{
+			.panel-body{
+				a{
+					color: black;
+					font-size: 10px;
+				}
+				ul{
+					li{
+						list-style: none;
+						a{
+							color: black;
+							font-size: 10px;
+						}			
+					}
+				}
+			}
+		}
+	}
+}
+
+.carousel-inner{
+	.active{
+		.carousel-caption{
+			color: white;
+			text-shadow: 2px 2px 5px #5f5f5f;
+			text-align: left;
+			padding-bottom: 90px;
+			p{
+				text-transform: uppercase;
+				font-family: $fuenteprincipal;
+				font-size: 12px;
+				letter-spacing: 2px;
+			}
+			h3{
+				font-family: $fuentealternativa;
+				font-size: 40px;
+				margin-bottom: 24px;
+			}
+		}
+	}
+}
+
+.clapo{
+	margin-top: 25px;
+	.pocla{
+		position: relative;
+		div{
+			display: inline-block;
+			position: absolute;
+			top: 60px;
+			left: 40px;
+			color: white;
+			h4{
+				font-family: $fuentealternativa;
+				font-size: 28px;
+			}
+			a{
+				font-family: $fuenteprincipal;
+				font-size: 9px;
+				color: white;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+
+.anteojos{
+	.container{
+		.row{
+			.featu{
+				font-family: $fuenteprincipal;
+				text-transform: uppercase;
+				color: #c2c2c2;
+				font-size: 10px;
+				font-weight: bold;
+				letter-spacing: 2px;
+				margin-bottom: 30px;
+				margin-top: 30px;
+				text-align: center;
+			}
+		}
+		.welcome{
+			text-align: center;
+			a{
+				letter-spacing: 1px;
+			}
+			a,span{
+				text-transform: uppercase;
+				font-family: $fuenteprincipal;
+				font-size: 9px;
+			}
+			h6{
+				font-family: $fuentealternativa;
+				font-size: 10px;
+				font-weight: bold;
+			}
+			img{
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+
+.welcometo{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	.lente{
+		h3{
+			font-family: $fuentealternativa;
+			font-size: 16px;
+			font-weight: bold;
+		}
+		p{
+			font-family: $fuenteprincipal;
+			font-size: 10px;
+			line-height: 2;
+		}
+	}
+	.lenteimg{
+		margin-top: 25px;
+	}
+}
+
+.mujer{
+	position: relative;
+	div{
+		position: absolute;
+		top: 40px;
+		left: 10px;
+		color: white;
+		text-shadow: 2px 2px 5px grey;
+		p{
+			font-family: $fuenteprincipal;
+			font-size: 9px;
+			text-transform: uppercase;
+		}
+		span{
+			font-family: $fuentealternativa;
+			font-size: 28px;
+		}
+	}
+}

@@ -1,0 +1,152 @@
+header {
+  margin-bottom: 30px; }
+
+.container {
+  width: 90%; }
+
+.principal {
+  padding-top: 20px;
+  font-family: "Open Sans", sans-serif; }
+  .principal .input-group-addon {
+    border: none;
+    background: none; }
+    .principal .input-group-addon .ion-search {
+      font-size: 18px;
+      vertical-align: middle; }
+  .principal .form-control {
+    border: none;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 2px;
+    padding-left: 0px; }
+  .principal .logo {
+    text-align: center; }
+    .principal .logo img {
+      width: 120px; }
+
+.menue {
+  text-align: center; }
+  .menue li {
+    float: none;
+    display: inline-block;
+    font-size: 10px;
+    padding-bottom: 15px; }
+    .menue li a {
+      color: black; }
+
+.lateral {
+  font-family: "Open Sans", sans-serif;
+  line-height: 30px; }
+  .lateral .lateralshop {
+    font-size: 13px;
+    color: grey;
+    font-weight: bold;
+    margin-left: 16px; }
+  .lateral .panel .panel-heading .look {
+    color: black;
+    font-size: 12px;
+    font-weight: 700; }
+  .lateral .panel .panel-heading .titulopanel {
+    color: #5D9FC2;
+    font-size: 12px;
+    font-weight: 700; }
+  .lateral .panel .panel-collapse .panel-body a {
+    color: black;
+    font-size: 10px; }
+  .lateral .panel .panel-collapse .panel-body ul li {
+    list-style: none; }
+    .lateral .panel .panel-collapse .panel-body ul li a {
+      color: black;
+      font-size: 10px; }
+
+.carousel-inner .active .carousel-caption {
+  color: white;
+  text-shadow: 2px 2px 5px #5f5f5f;
+  text-align: left;
+  padding-bottom: 90px; }
+  .carousel-inner .active .carousel-caption p {
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px; }
+  .carousel-inner .active .carousel-caption h3 {
+    font-family: "PT Serif", serif;
+    font-size: 40px;
+    margin-bottom: 24px; }
+
+.clapo {
+  margin-top: 25px; }
+  .clapo .pocla {
+    position: relative; }
+    .clapo .pocla div {
+      display: inline-block;
+      position: absolute;
+      top: 60px;
+      left: 40px;
+      color: white; }
+      .clapo .pocla div h4 {
+        font-family: "PT Serif", serif;
+        font-size: 28px; }
+      .clapo .pocla div a {
+        font-family: "Open Sans", sans-serif;
+        font-size: 9px;
+        color: white;
+        text-transform: uppercase; }
+
+.anteojos .container .row .featu {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #c2c2c2;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center; }
+.anteojos .container .welcome {
+  text-align: center; }
+  .anteojos .container .welcome a {
+    letter-spacing: 1px; }
+  .anteojos .container .welcome a, .anteojos .container .welcome span {
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-size: 9px; }
+  .anteojos .container .welcome h6 {
+    font-family: "PT Serif", serif;
+    font-size: 10px;
+    font-weight: bold; }
+  .anteojos .container .welcome img {
+    margin-bottom: 10px; }
+
+.welcometo {
+  margin-top: 20px;
+  margin-bottom: 30px; }
+  .welcometo .lente h3 {
+    font-family: "PT Serif", serif;
+    font-size: 16px;
+    font-weight: bold; }
+  .welcometo .lente p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    line-height: 2; }
+  .welcometo .lenteimg {
+    margin-top: 25px; }
+
+.mujer {
+  position: relative; }
+  .mujer div {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    color: white;
+    text-shadow: 2px 2px 5px grey; }
+    .mujer div p {
+      font-family: "Open Sans", sans-serif;
+      font-size: 9px;
+      text-transform: uppercase; }
+    .mujer div span {
+      font-family: "PT Serif", serif;
+      font-size: 28px; }
+
+/*# sourceMappingURL=styles.css.map */
